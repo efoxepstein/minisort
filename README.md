@@ -11,7 +11,9 @@ Rules:
 # Progress
 
 I am down to 68 characters including whitespace.
+Check out `minisort.c`.
 
 # Contributing
 
 If you can beat this, please fork and show me.
+Write your code in `minisort.c`, the driver shouldn't need altering.
