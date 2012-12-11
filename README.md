@@ -8,6 +8,11 @@ Rules:
 - Must sort in ascending order
 - Must be deterministic and always work
 
+# Example
+In `selectionsort.60.c` we have:
+
+    for(;--i;a++)for(int*j=a,t;++j<=a+i;)*j<(t=*a)?*a=*j,*j=t:0;
+
 # Progress
 
 The current best solutions (60 characters) are a combined effort with Mark Yagnatinsky. To test a solution, copy it to `minisort.c`, compile (`gcc -Wall -Wextra -std=c99 driver.c`) and run (`./a.out 45 1 2 65 23 1 55 4` for example).
